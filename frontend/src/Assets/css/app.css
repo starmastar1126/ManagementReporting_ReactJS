@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+/* colors */
+.cl-main { color: #ddb35c !important; }
+.cl-primary {color: #3f51b5 !important; }
+.cl-white { color: white !important; }
+.cl-black { color: black !important; }
+.cl-invalid { color: #f44336 !important; }
+
+.bkg-main { background-color: #ddb35c !important; }
+.bkg-white { background-color: white; }
+.bkg-black { background-color: black; }
+.bkg-trans { background-color: transparent; }
+
+/* position */
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+.v-align {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/* text */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* font */
+.ft-bold { font-weight: bold !important; }
+
+.ft-8 { font-size: 8px; }
+.ft-10 { font-size: 10px; }
+.ft-12 { font-size: 12px; }
+.ft-14 { font-size: 14px; }
+.ft-16 { font-size: 16px !important; }
+.ft-18 { font-size: 18px; }
+.ft-20 { font-size: 20px; }
+.ft-22 { font-size: 22px; }
+.ft-24 { font-size: 24px; }
+.ft-26 { font-size: 26px; }
+.ft-28 { font-size: 28px; }
+.ft-30 { font-size: 30px; }
+.ft-32 { font-size: 32px; }
+.ft-34 { font-size: 34px; }
+.ft-36 { font-size: 36px; }
+
+/* margin */
+.mg-0 { margin: 0; }
+.mg-5 { margin: 5px; }
+.mg-10 { margin: 10px; }
+.mg-15 { margin: 15px; }
+.mg-20 { margin: 20px; }
+.mg-25 { margin: 25px; }
+
+.mgv-0 { margin: 0 0; }
+.mgv-5 { margin: 5px 0; }
+.mgv-10 { margin: 10px 0;}
+.mgv-15 { margin: 15px 0; }
+.mgv-20 { margin: 20px 0; }
+.mgv-25 { margin: 25px 0; }
+
+.mgh-0 { margin: 0 0; }
+.mgh-5 { margin: 0 5px; }
+.mgh-10 { margin: 0 10px; }
+.mgh-15 { margin: 0 15px; }
+.mgh-20 { margin: 0 20px; }
+.mgh-25 { margin: 0 25px; }
+
+.mt--15 { margin-top: -15px; }
+.mt--10 { margin-top: -10px; }
+.mt--5 { margin-top: -5px; }
+.mt-0 { margin-top: 0; }
+.mt-5 { margin-top: 5px; }
+.mt-10 { margin-top: 10px !important; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-25 { margin-top: 25px; }
+
+.mr--15 { margin-right: -15px; }
+.mr--10 { margin-right: -10px; }
+.mr--5 { margin-right: -5px; }
+.mr-0 { margin-right: 0; }
+.mr-5 { margin-right: 5px; }
+.mr-10 { margin-right: 10px; }
+.mr-15 { margin-right: 15px; }
+.mr-20 { margin-right: 20px; }
+.mr-25 { margin-right: 25px; }
+
+.mb--15 { margin-bottom: -15px; }
+.mb--10 { margin-bottom: -10px; }
+.mb--5 { margin-bottom: -5px; }
+.mb-0 { margin-bottom: 0; }
+.mb-5 { margin-bottom: 5px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-25 { margin-bottom: 25px; }
+
+.ml--15 { margin-left: -15px; }
+.ml--10 { margin-left: -10px; }
+.ml--5 { margin-left: -5px; }
+.ml-0 { margin-left: 0; }
+.ml-5 { margin-left: 5px; }
+.ml-10 { margin-left: 10px; }
+.ml-15 { margin-left: 15px; }
+.ml-20 { margin-left: 20px; }
+.ml-25 { margin-left: 25px; }
+
+/* padding */
+.pd-0 { padding: 0; }
+.pd-5 { padding: 5px; }
+.pd-10 { padding: 10px; }
+.pd-15 { padding: 15px; }
+.pd-20 { padding: 20px; }
+.pd-25 { padding: 25px; }
+
+.pdv-0 { padding: 0 0; }
+.pdv-5 { padding: 5px 0; }
+.pdv-10 { padding: 10px 0; }
+.pdv-15 { padding: 15px 0; }
+.pdv-20 { padding: 20px 0; }
+.pdv-25 { padding: 25px 0; }
+
+.pdh-0 { padding: 0 0; }
+.pdh-5 { padding: 0 5px; }
+.pdh-10 { padding: 0 10px; }
+.pdh-15 { padding: 0 15px; }
+.pdh-20 { padding: 0 20px; }
+.pdh-25 { padding: 0 25px; }
+
+.pt--15 { padding-top: -15px; }
+.pt--10 { padding-top: -10px; }
+.pt--5 { padding-top: -5px; }
+.pt-0 { padding-top: 0; }
+.pt-5 { padding-top: 5px; }
+.pt-10 { padding-top: 10px; }
+.pt-15 { padding-top: 15px; }
+.pt-20 { padding-top: 20px; }
+.pt-25 { padding-top: 25px; }
+.pt-40 { padding-top: 40px; }
+
+.pr--15 { padding-right: -15px; }
+.pr--10 { padding-right: -10px; }
+.pr--5 { padding-right: -5px; }
+.pr-0 { padding-right: 0; }
+.pr-5 { padding-right: 5px; }
+.pr-10 { padding-right: 10px; }
+.pr-15 { padding-right: 15px; }
+.pr-20 { padding-right: 20px; }
+.pr-25 { padding-right: 25px; }
+
+.pb--15 { padding-bottom: -15px; }
+.pb--10 { padding-bottom: -10px; }
+.pb--5 { padding-bottom: -5px; }
+.pb-0 { padding-bottom: 0; }
+.pb-5 { padding-bottom: 5px; }
+.pb-10 { padding-bottom: 10px; }
+.pb-15 { padding-bottom: 15px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-25 { padding-bottom: 25px; }
+
+.pl--15 { padding-left: -15px; }
+.pl--10 { padding-left: -10px; }
+.pl--5 { padding-left: -5px; }
+.pl-0 { padding-left: 0; }
+.pl-5 { padding-left: 5px; }
+.pl-10 { padding-left: 10px; }
+.pl-15 { padding-left: 15px; }
+.pl-20 { padding-left: 20px; }
+.pl-25 { padding-left: 25px; }
+
+/* display */
+.flex {
+  display: flex;
+}
+
+.right {
+  flex: 1;
+}
+
+/* cursor */
+.pointer {
+  cursor: pointer
+}
+
+/* border */
+.well {
+  border: solid 2px transparent;
+}
+
+.well:hover {
+  border: solid 2px #939393
+}
+
+/* widgets */
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  color: black;
+}
+
+.subtitle {
+  color: black !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.barHover {
+  stroke: black;
+  stroke-width: 0.8px;
+}
+
+.barActive {
+  stroke: black;
+  stroke-width: 1.4px !important;
+}
+
+.grayHover:hover {
+  background: #e2e2e2
+}
+
+.bkgActive {
+  background: #316ac5;
+  color: white
+}
+
+.bkgActive:hover {
+  background: #316ac5;
+}
+
+.tooltipPanel {
+  margin: 2px;
+}
